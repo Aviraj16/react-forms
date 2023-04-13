@@ -1,9 +1,10 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
-const ContactUs = () => {
+const Login = () => {
+
   return (
-    <Form style={{ width: "50%", background: "darkgrey", padding: '20px' }}>
+    <Form style={{ width: "50%", background: "aquamarine", padding: '20px' }}>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" />
@@ -26,4 +27,4 @@ const ContactUs = () => {
   )
 }
 
-export default ContactUs
+export default Login
