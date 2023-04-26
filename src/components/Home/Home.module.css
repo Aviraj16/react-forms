@@ -1,0 +1,9 @@
+.main-container {
+  height: 100%;
+}
+.img-container {
+  background-image: url("../../assets/waterfall1.jpg");
+  background-size: cover;
+  height: 50%;
+  background-position: center;
+}

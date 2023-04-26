@@ -1,11 +1,11 @@
-import { Fragment } from "react"
+import classes from "./Home.module.css"
 
 const Home = () => {
   return (
-    <Fragment>
-    <div>Home</div>
-    <p>This app is created for showing different react forms</p>
-    </Fragment>
+    <div className={classes["main-container"]}>
+      <div className={classes["img-container"]}></div>
+      <div>This site shows multiple forms which we use to show for login, signup and contact us</div>
+    </div>
   )
 }
 
