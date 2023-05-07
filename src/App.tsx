@@ -5,6 +5,7 @@ import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 
 import './App.css';
+import Checkout from './components/Checkout/Checkout';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
     </BrowserRouter>
   );
